@@ -31,6 +31,7 @@ h2 span
 	{
 		color: #228B22;
 		font-weight: bold;
+	    font-family: "Della Respira", serif;
 	}
 /* end h2 */
 
@@ -172,11 +173,14 @@ header .social-icon li a
 	}
 .navbar-default .navbar-brand
 	{
+		font-family: "Della Respira", serif;
 		font-weight: 500;
 		font-size: 30px;
 		height: 70px;
 		line-height: 40px;
 		padding: 12px 0px 0px 12px;
+	    display: flex;
+	    align-items: center;
 	}
 .navbar-default .navbar-nav li a
 	{
@@ -213,6 +217,7 @@ header .social-icon li a
 #home h1
 	{
 		font-weight: 300;
+		font-family: "Della Respira", serif;
 		font-size: 70px;
 		padding-bottom: 10px;
 	}
