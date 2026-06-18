@@ -357,11 +357,11 @@
     $.fn.typed.defaults = {
         strings: ["These are the default values...", "You know what you should do?", "Use your own!", "Have a great day!"],
         // typing speed
-        typeSpeed: 0,
+        typeSpeed: 5,
         // time before typing starts
         startDelay: 0,
         // backspacing speed
-        backSpeed: 0,
+        backSpeed: 5,
         // time before backspacing
         backDelay: 500,
         // loop

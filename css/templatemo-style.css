@@ -13,11 +13,11 @@ body
 	}
 	
 a {
-	color: #47C6F8;
+	color: #228B22;
 }
 	
 a:hover {
-	color: #0FF;
+	color: #228B22;
 }
 
 /* start h2 */
@@ -29,7 +29,7 @@ h2
 	}	
 h2 span
 	{
-		color: #28a7e9;
+		color: #228B22;
 		font-weight: bold;
 	}
 /* end h2 */
@@ -135,7 +135,7 @@ header
 	}
 header .fa
 	{
-		color: #28a7e9;
+		color: #228B22;
 	}
 header span
 	{
@@ -187,7 +187,7 @@ header .social-icon li a
 	}
 
 .navbar-default .navbar-nav > li > a.current { 
-	color: #28A7E9; 
+	color: #228B22; 
 }
 .templatemo-nav {
 	border-radius: 0;	
@@ -218,7 +218,7 @@ header .social-icon li a
 	}
 #home h1 span
 	{
-		color: #28a7e9;
+		color: #228B22;
 		font-weight: bold;
 	}
 #home .btn
@@ -237,7 +237,7 @@ header .social-icon li a
 	}
 #home .btn:hover
 	{
-		background: #28a7e9;
+		background: #228B22;
 		border-color: transparent;
 	}
 .element {
@@ -294,7 +294,7 @@ header .social-icon li a
 	}
 #team .team-wrapper .team-des span
 	{
-		color: #28a7e9;
+		color: #228B22;
 		display: block;
 		font-weight: bold;
 		padding-bottom: 12px;
@@ -330,7 +330,7 @@ header .social-icon li a
 	}
 #service h4
 	{
-		color: #28a7e9;
+		color: #228B22;
 		font-weight: 600;
 		padding-top: 10px;
 		padding-bottom: 14px;
@@ -358,7 +358,7 @@ header .social-icon li a
 	}
 #portfolio .portfolio-thumb .portfolio-overlay
 	{
-		background: #28a7e9;
+		background: #228B22;
 		top: 0;
 		left: 0;
 		right: 0;
@@ -401,7 +401,7 @@ header .social-icon li a
 #contact .form-control
 	{
 		background: transparent;
-		border: 1px solid #28a7e9;
+		border: 1px solid #228B22;
 		border-radius: 2px;
 		box-shadow: none;
 		color: #fff;
@@ -418,7 +418,7 @@ header .social-icon li a
 	}
 #contact input[type="submit"]
 	{
-		background: #28a7e9;
+		background: #228B22;
 		font-weight: bold;
 		-webkit-transition: all 0.4s ease-in-out;
 		        transition: all 0.4s ease-in-out;
@@ -500,7 +500,7 @@ header .social-icon li a
 	}
 .social-icon li a:hover
 	{
-		background: #28a7e9;
+		background: #228B22;
 		border-color: transparent;
 	}
 /* end social icon */
@@ -519,7 +519,7 @@ header .social-icon li a
 		}
 	#portfolio .portfolio-thumb .portfolio-overlay
 	{
-		background: #28a7e9;
+		background: #228B22;
 		top: 0;
 		left: 0;
 		right: 0;
@@ -594,3 +594,50 @@ header .social-icon li a
 
 }
 /* end 360 media quires */
+/* Modern Tile Styling */
+#team .modern-tile {
+    background: #383838;
+    border-radius: 15px;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.4);
+    overflow: hidden;
+    margin-top: 40px;
+    border: 1px solid #444;
+    transition: all 0.3s ease;
+}
+
+#team .modern-tile:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 30px 60px rgba(0,0,0,0.6);
+}
+
+#team .modern-tile img {
+    width: 100%;
+    max-height: 600px;
+    object-fit: cover;
+    border-bottom: 4px solid #228B22;
+}
+
+#team .modern-tile .team-des {
+    padding: 40px;
+}
+
+#team .modern-tile .team-des h4 {
+    font-size: 28px;
+    color: #fff;
+    margin-bottom: 5px;
+}
+
+#team .modern-tile .team-des span {
+    color: #228B22;
+    font-size: 18px;
+    margin-bottom: 20px;
+    display: block;
+    font-weight: 600;
+}
+
+#team .modern-tile .team-des p {
+    font-size: 16px;
+    line-height: 1.8;
+    color: #ccc;
+    margin-bottom: 15px;
+}
